@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gabriel S. Magnus">
+    <meta name="description" content="Evento universitário de tecnologia, inovação e segurança digital.">
+    <title>CyberTech University 2026</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>CyberTech University 2026</h1>
+        <p>
+            Tecnologia, inovação e segurança digital.
+        </p>
+        <p>
+            O CyberTech University 2026 é um evento universitário realizado pela Unesc voltado para tecnologia e segurança digital. O evento reúne estudantes, professores e profissionais da área para compartilhar conhecimentos, experiências e novidades do setor.
+        </p>
+        <nav>
+            <a href="#sobre">Sobre o evento</a>
+            <a href="#palestras">Palestras</a>
+            <a href="#inscricao">Inscrição</a>
+        </nav>
+    </header>
+    <main>
+        <article id="sobre">
+            <h2>Sobre o Evento</h2>
+
+            <img height="200px" width="300px" src="img/eventoTech.jpg" alt="Palestra sobre cibersegurança realizada no CyberTech University 2025">
+
+            <p>
+               O CyberTech University 2026 é um evento universitário realizado pela Unesc dedicado à tecnologia, inovação e segurança digital. O encontro foi pensado para proporcionar aos estudantes uma experiência de aprendizado além da sala de aula, aproximando o conhecimento acadêmico das situações e desafios encontrados no mercado de tecnologia
+            </p>
+            <p>
+                Durante o evento, os participantes terão a oportunidade de conhecer novas tecnologias, acompanhar profissionais da área e compartilhar experiências com outros estudantes. A programação reúne palestras, workshops, desafios de programação e apresentações de projetos acadêmicos.
+            </p>
+            <h3>Principais atrações</h3>
+            <ul>
+                <li>Palestras sobre segurança digitar e inteligência artificial</li>
+                <li>Workshop de desenvolvimento de aplicações seguras</li>
+                <li>Desafio de programação CyberTech</li>
+                <li>Apresentação de projetos acadêmicos</li>
+                <li>Interação entre estudantes e profissionais de tecnologia</li>
+            </ul>
+            <a target="_blank" href="https://www.unesc.net/portal/central-de-eventos">Saiba mais sobre os eventos da Unesc.</a>
+        </article>
+        
+        <section id="palestras">
+            <h2>Palestras e Atividades</h2>
+            <p>
+                As palestras do CyberTech University 2026 foram cuidadosamente planejadas para oferecer aos participantes uma visão ampla e atualizada sobre os principais temas da tecnologia. Cada apresentação busca não apenas transmitir conhecimento técnico, mas também estimular reflexões sobre inovação, segurança digital e o impacto da tecnologia na sociedade.
+            </p>
+
+
+            <article>
+                <h3>Palestra: Segurança Digital</h3>
+                <p>
+                    Ministrada pelo Prof. João Silva, especialista em cibersegurança. A palestra abordará os principais desafios da proteção de dados em ambientes corporativos e acadêmicos.
+                </p>
+            </article>
+            <article>
+                <h3>Palestra: Inteligência Artificial Aplicada</h3>
+                <p>
+                    Com a Profa. Maria Oliveira, pesquisadora em IA. Serão discutidas aplicações práticas de machine learning em saúde, educação e indústria, além dos impactos éticos da tecnologia.
+                </p>
+            </article>
+            <article>
+                <h3>Workshop: Desenvolvimento de Aplicações Seguras</h3>
+                <p>
+                    Conduzido por Carlos Mendes, engenheiro de software. Os participantes aprenderão técnicas de programação segura, prevenção de ataques comuns e boas práticas de desenvolvimento.
+                </p>
+            </article>
+            <article>
+                <h3>Desafio de Programação CyberTech</h3>
+                <p>
+                    Competição entre estudantes para resolver problemas de lógica e algoritmos em tempo real. O desafio promove trabalho em equipe e estimula a criatividade na solução de problemas.
+                </p>
+            </article>
+            <article>
+                <h3>Apresentação de Projetos Acadêmicos</h3>
+                <p>
+                    studantes da Unesc apresentarão projetos inovadores desenvolvidos em sala de aula, incluindo aplicativos, sistemas de segurança e soluções baseadas em inteligência artificial.
+                </p>
+            </article>
+        </section>
+
+        <section id="inscricao">
+            <h2>Faça sua inscrição aqui</h2>
+            <form action="inscricao.php" method="post">
+                <label for="nome" id="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" required >
+                <br>
+
+                <label for="email" id="email">E-mail:</label>
+                <input type="email" name="email" id="email" required>
+                <br>
+
+                <label for="senha" id="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" required>
+                <br>
+
+                <label for="idade" id="idade" >Idade:</label>
+                <input type="number" name="idade" id="idade" required>
+                <br>
+
+                <label for="data" id="data">Data que deseja se inscrever: </label>
+                <input type="date" name="data" id="data" required>
+                <br>
+
+                <p>Você é estudante?</p>
+                <input type="radio" name="estudante" id="sim" value="sim" required>
+                <label for="sim">Sim</label>
+                <input type="radio" name="estudante" id="nao" value="nao" required>
+                <label for="nao">Não</label>
+                <br>
+
+                <p>Áreas de interesse:</p>
+                <input type="checkbox" name="interesse" id="seguranca" value="seguranca" >
+                <label for="seguranca">Segurança Digital</label>
+                <input type="checkbox" name="interesse" id="ia" value="ia" >
+                <label for="ia">Inteligência Artificial</label>
+                <br><br>
+
+                <button type="submit">Fazer inscrição</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gabriel S. Magnus</p>
+        <p>Disciplina: Desenvolvimento de Aplicações I</p>
+        <p>Esta página foi criada como atividade acadêmica da UNESC.</p>
+    </footer>
+</body>
+</html>
